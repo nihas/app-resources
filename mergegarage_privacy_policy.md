@@ -1,6 +1,6 @@
 # Privacy Policy for Merge Garage
 
-**Last updated: October 12, 2026**
+**Last updated: October 29, 2026**
 
 Merge Garage ("the game", "we", "our", or "us") is a toy vehicle merging game developed by Nihas Nizar. Players launch and combine matching vehicles to discover upgraded vehicles.
 
@@ -10,11 +10,15 @@ We respect your privacy. This Privacy Policy explains how information is handled
 
 You are not required to create an account or provide personal information such as your name, email address, phone number, or location to play the game.
 
-We do not operate a game server that receives your scores, vehicle collection, or game progress. Information that may be processed by the Unity runtime is addressed in Section 5.
+We do not operate a game server that receives your scores, vehicle collection, or game progress. Google Mobile Ads and Unity may process technical information as described in Sections 3–5.
 
 If you contact us for support, we receive the email address and information you choose to include in your message. We use this information to respond to your inquiry.
 
 ## 2. Information Stored on Your Device
+
+Your sound on/off preference is saved locally on your device and is not uploaded by the gameplay code.
+
+The game stores a tutorial-completion preference locally on your device so that first-time instructions do not repeat after you complete them. This preference is not uploaded by the gameplay code and can be removed by clearing the app's storage.
 
 Merge Garage keeps active gameplay information, such as the vehicles in the current game, on your device during a session. The current version does not include an account system or cloud saves. Restarting the game or quitting to the main menu discards the current session's progress.
 
@@ -22,15 +26,17 @@ Any app-local files and settings can be removed by clearing the application's st
 
 ## 3. Advertising
 
-The current version of Merge Garage does **not display advertisements** and does not include advertising functionality.
+Merge Garage integrates Google AdMob interstitial advertisements at vehicle-unlock pauses. A short countdown appears when an ad is ready; unavailable ads are skipped without blocking gameplay or removing earned coins.
 
-If advertisements are introduced in a future version, this Privacy Policy will be updated to explain the advertising services used and any information that may be processed by those services.
+Google's Mobile Ads SDK may collect and share IP addresses (which can indicate approximate location), app and advertisement interactions, diagnostic information, and device or account identifiers, including the Android Advertising ID and app set ID where available, for advertising, measurement, and fraud prevention. The specific processing depends on the SDK configuration and applicable privacy choices.
+
+Where required, Google's consent messaging is presented before requesting ads. When Google requires a privacy-options entry point, you can revisit your choices using **Ad Privacy** in the main or pause menu. The SDK may use available identifiers to deliver or personalize ads and measure their performance, subject to applicable consent and configuration. You can reset or delete the Android Advertising ID through your device's privacy or advertising settings. This does not necessarily stop all advertising or all other SDK data processing.
+
+For more information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## 4. Analytics and Tracking
 
-The current version does not integrate the Unity Analytics package or link to Google Analytics for Firebase. It does not display advertisements or include advertising trackers intended to track users across apps or websites.
-
-Unity engine diagnostics and Developer Data collection remain enabled, as described below. The absence of an analytics package does not mean that no technical information is transmitted.
+The game does not integrate the Unity Analytics package or link to Google Analytics for Firebase. Google Mobile Ads nevertheless processes advertising-related measurement data, and Unity engine diagnostics and Developer Data collection are enabled as described below. This game should not be treated as collecting no data merely because a standalone analytics package is absent.
 
 ## 5. Unity Diagnostics and Third-Party Services
 
@@ -44,7 +50,7 @@ Unity receives and processes this information on our behalf. Our enabled usage s
 - Access by Unity technical support in connection with our support requests.
 - Product recommendations and optimization advice for our developer organization.
 
-The recommendations setting concerns our developer organization; it does not introduce advertisements into the game.
+The recommendations setting concerns our developer organization and is separate from Google AdMob advertising.
 
 Google Play and Android may separately process installation, security, and diagnostic information under their own settings and policies.
 
@@ -57,7 +63,7 @@ Further information:
 
 ## 6. Data Sharing, Retention, and Deletion
 
-We do not sell or rent personal information. Unity processes diagnostic information as described in Section 5. We do not send player information to advertising providers or maintain a developer-operated gameplay backend.
+We do not sell or rent personal information. Unity processes diagnostic information as described in Section 5. Google Mobile Ads processes information as described in Section 3. We do not maintain a developer-operated gameplay backend.
 
 We retain support correspondence only as long as needed to resolve your request or meet applicable legal obligations. You may email us to request deletion of your correspondence, subject to those obligations.
 
@@ -65,7 +71,7 @@ Local game information can be removed as described in Section 2. Unity documents
 
 You may contact us to request access to or deletion of your Diagnostics data. We will coordinate applicable requests through Unity's support or Dashboard processes and may need your installation-specific identifier to locate the records. Clearing local storage or uninstalling the game does not itself delete information already transmitted to Unity. The current game does not provide an in-game diagnostics opt-out control.
 
-Data processed by other platform or engine services is subject to the practices described in Section 5 and the applicable service policies.
+Google processes and retains advertising-related information under its applicable policies; retention varies by data type and purpose. The 90-day Unity Diagnostics default does not apply to Google advertising data. See the Google privacy links in Section 3 for its retention practices and available privacy controls. Clearing app storage or uninstalling does not automatically erase data already transmitted to Google. You may contact us about privacy requests, and we will explain which requests we can handle and which need to be directed to the relevant provider.
 
 ## 7. Data Security
 
@@ -75,7 +81,7 @@ Please note that no device, software environment, or method of transmission can 
 
 ## 8. Children's Privacy
 
-The current game does not ask children or other players to provide account details or contact information to play. Technical diagnostic information may still be processed as described in Section 5.
+The current game does not ask children or other players to provide account details or contact information to play. Advertising-related and technical information may still be processed as described in Sections 3–5.
 
 If you believe a child has provided personal information to us through a support request, contact us so we can review and delete it where appropriate.
 
@@ -83,7 +89,7 @@ If you believe a child has provided personal information to us through a support
 
 Merge Garage may receive new features and functionality over time.
 
-We may update this Privacy Policy when the game's functionality or data practices change, including if we introduce advertising, analytics, purchases, cloud saves, accounts, or other online services.
+We may update this Privacy Policy when the game's functionality or data practices change, including changes to advertising or diagnostics and the introduction of analytics, purchases, cloud saves, accounts, or other online services.
 
 Changes will be reflected on this page by updating the "Last updated" date.
 
